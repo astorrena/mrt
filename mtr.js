@@ -54,6 +54,9 @@ if (idioma == "en") {
     //CONTACT//
     $("#hablamos_title").text("Shall we speak");
     $("#hablamos_text").text("Tell me about your idea, project, or just say hi!");
+    $("#hablamos_form").html('<input type="text" class="text-field w-input" maxlength="256" name="name-2" data-name="Name 2" placeholder="Name" id="nombre"><input type="email" class="text-field w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="E-mail" id="mail" required=""><textarea id="mensaje" name="Mensaje-2" maxlength="5000" data-name="Mensaje 2" placeholder="Message" class="textarea textarea-2 text-field w-input"></textarea><label class="w-checkbox checkbox-field"><div class="w-checkbox-input w-checkbox-input--inputType-custom checkbox"></div><input type="checkbox" name="Aceptacion" id="Aceptacion" data-name="Aceptacion" required="" style="opacity:0;position:absolute;z-index:-1"><span class="checkbox-label w-form-label" for="Aceptacion">I accept the<a href="#" class="link-2">privacy policy</a></span></label><input type="submit" data-wait="Please wait..." value="Enviar" class="formulario-btn w-button">');
+
+    
   
     //PROYECTS//
     $("#portfolio_title").text("The work speaks for itself, so I invite you to check out this selection of projects where I walk you through different concepts, applications, and commercial sectors. From music bands to a yoga shop, and even trendy jewelry. ");
