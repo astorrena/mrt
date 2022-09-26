@@ -155,9 +155,10 @@ if (idioma == "en") {
     $("#pr-cont-descripcion-turisnomic").html('<p id="pr-cont-descripcion-ariane" class="parrafo">) Turisnomic is a tourism consultancy specialized in gastronomic leisure.<br><br> Its main mission is to create gastronomic tourism projects for tourism brands and companies, as well as to help digitize the primary sector to adapt to the new market.<br></p>');  
 
     //POSTERS//
-    $("#pr-cont-servicios-posters").html('<p class="datos-cliente-bold">Branding <br>Identity<br>Graphic Design</p>');
-    $("#pr-cont-sector-posters").text("VA");
-    $("#pr-cont-descripcion-posters").html('<p id="pr-cont-descripcion-ariane" class="parrafo">) ) Selection of posters where you can find posters for events, expositions, or self-driven projects.<br></p>');      
+    $("#pr-cont-client-posters").text("Various/Autoproject");
+    $("#pr-cont-servicios-posters").html('<p class="datos-cliente-bold">Graphic Design</p>');
+    $("#pr-cont-sector-posters").text("Various");
+    $("#pr-cont-descripcion-posters").html('<p id="pr-cont-descripcion-ariane" class="parrafo">Selection of posters where you can find posters for events, expositions, or self-driven projects.<br></p>');      
 
     //YOGAES//
     $("#pr-cont-servicios-yogaes").html('<p class="datos-cliente-bold">Branding <br>Identity<br>Graphic Design</p>');
