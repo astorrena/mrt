@@ -12,6 +12,9 @@ if (idioma == "en") {
     $("#nav-contacto").text("Contact");
     $("#hablamos-dale").html('<h1 class="titulo-seccion" style="color: rgb(0, 0, 0);"><span class="text-span-5">¿Hablamos?</span> Dale</h1>');
     $("#conecta-conmigo").text("Connect with me");
+    
+    $(".hablamos").hide();
+    
 
 
 
