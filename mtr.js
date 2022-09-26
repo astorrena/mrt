@@ -74,6 +74,8 @@ if (idioma == "en") {
     $("#formacion").text("— Online training");
     $("#buceo").text("— Diving Instructors");
     $("#geneticas").text("— Genetics");
+    $("#autoproyecto").text("— Various/Autoproject");
+  
 
     $("#pr-titulo-cliente").text("Client");
     $("#pr-titulo-servicios").text("Services");
