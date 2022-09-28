@@ -10,7 +10,6 @@ if (home == "on") {
   function bt_english() {
     sessionStorage.setItem("idioma", "en");
     $("#menu-movil").hide();
-    $(".menu-icon-image").show();
     $(".menu-icon-image-close").hide();
     
     $("#bt-idioma").html('<a onclick="bt_castellano()">ES</a>');
