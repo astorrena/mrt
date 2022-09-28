@@ -3,6 +3,9 @@ var idioma = sessionStorage.getItem("idioma");
 if (idioma == "en") {
   bt_english();
 }
+if (home == "on") {
+  $(".loader").hide();
+}
   function bt_english() {
     sessionStorage.setItem("idioma", "en");
     $("#menu-movil").hide();
