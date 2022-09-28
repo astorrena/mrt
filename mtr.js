@@ -1,4 +1,5 @@
 var idioma = sessionStorage.getItem("idioma");
+var home = sessionStorage.getItem("home");
 
 if (idioma == "en") {
   bt_english();
