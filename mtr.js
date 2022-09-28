@@ -6,17 +6,18 @@ if (idioma == "en") {
   function bt_english() {
     sessionStorage.setItem("idioma", "en");
     
-    $("#bt-idioma").html('<a onclick="bt_castellano()">ES</a>')
+    $("#bt-idioma").html('<a onclick="bt_castellano()">ES</a>');
+    $("#bt-idioma-movil").html('<a onclick="bt_castellano()">ES</a>');
    
     $("#nav-sobremi").text("About me");
     $("#nav-contacto").text("Contact");
+    $("#nav-sobremi-movil").text("About me");
+    $("#nav-contacto-movil").text("Contact");
     $("#hablamos-dale").html('<h1 class="titulo-seccion" style="color: rgb(0, 0, 0);"><span class="text-span-5">¿Hablamos?</span> Dale</h1>');
     $("#conecta-conmigo").text("Connect with me");
     
     $(".hablamos").hide();
     
-
-
 
     //HOME//
     $("#home-diseno").text("Graphic Design");
